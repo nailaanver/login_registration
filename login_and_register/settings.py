@@ -117,6 +117,9 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 STATICFILES_DIRS = [BASE_DIR/'static']
+# settings.py
+LOGIN_REDIRECT_URL = 'home'
+
 
 
 # Default primary key field type
