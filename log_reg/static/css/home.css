@@ -1,0 +1,39 @@
+/* Home Page Styling */
+.home-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 50px;
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #74ebd5 0%, #9face6 100%);
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.home-main h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+.home-main p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.btn-logout {
+    padding: 10px 20px;
+    background: #ff5a5f;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn-logout:hover {
+    background: #e63946;
+}
